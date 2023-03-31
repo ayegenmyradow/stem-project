@@ -1,0 +1,35 @@
+<%- include('header.html') -%>
+    <div class="container p-5">
+        <form action="/profile" method="post">
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">#</span>
+                <input type="text" class="form-control" disabled value="<%=user.user_id%>">
+            </div>
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">Name</span>
+                <input type="text" class="form-control" name="name" value="<%=user.name%>">
+            </div>
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">Surname</span>
+                <input type="text" class="form-control" name="surname" value="<%=user.surname%>">
+            </div>
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">Phone</span>
+                <input type="text" class="form-control" name="phone" value="<%=user.phone%>">
+            </div>
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">Password</span>
+                <input type="text" class="form-control" name="password">
+            </div>
+            <div class="input-group mb-3">
+                <span style="min-width: 150px;" class="input-group-text">Created at</span>
+                <input type="text" class="form-control" disabled value="<%=user.created_at%>">
+            </div>
+            <div class="text-center">
+                <button class="btn btn-outline-danger" type="reset">Reset</button>
+                <button class="btn btn-outline-success" type="submit">Confirm</button>
+            </div>
+            
+        </form>
+    </div>
+<%- include('footer.html') -%>

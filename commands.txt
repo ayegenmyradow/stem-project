@@ -1,0 +1,11 @@
+mkdir stem_project;
+
+npm init -y;
+
+//only home
+npm config set registry https://nexus.telecom.tm/repository/npm-proxy
+
+npm i --save nodemon express ejs multer cookie-parser morgan mysql2
+
+add to package.json in scripts 
+    "start": "nodemon main.js"

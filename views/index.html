@@ -1,0 +1,28 @@
+<%- include('header.html') -%>
+    <div class="container pt-3 pb-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <%banners.forEach(function(banner, index){%>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<%=index%>" 
+                        class="<%if (index==0){%>active<%}%>"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <%})%>
+            </div>
+            <div class="carousel-inner">
+                <%banners.forEach(function(banner, index){%>
+                    <a href="<%=banner.target%>" target="_blank" class="carousel-item <%if (index==0){%>active<%}%>">
+                        <img src="<%=banner.image%>" class="d-block w-100" alt="...">
+                    </a>
+                <%})%>
+            </div>
+        </div>
+        <h1>Users</h1>
+        <div id="users">hello everybody</div>
+        <div>
+            <h2>http://192.168.4.220:3000</h2>
+            <a class="btn btn-success" href="/public/stem.zip">
+                Download stem latest
+            </a>
+        </div>
+    </div>
+<%- include('footer.html') -%>

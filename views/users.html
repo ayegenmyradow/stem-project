@@ -1,0 +1,25 @@
+<%- include('header.html') -%>
+    <div class="container">
+        <h1 class="text-center">Users</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Fullname</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Created at</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%users.forEach(function(user){%>
+                    <tr>
+                        <th scope="row"><%=user.user_id%></th>
+                        <td><%=user.name%> <%=user.surname%></td>
+                        <td><%=user.phone%></td>
+                        <td><%=user.created_at.toString().replace('GMT+0500 (Turkmenistan Standard Time)', '')%></td>
+                    </tr>
+                <%})%>
+            </tbody>
+        </table>
+    </div>
+<%- include('footer.html') -%>

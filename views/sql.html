@@ -1,0 +1,16 @@
+<%- include('header.html') -%>
+    <form action="/sql" method="get" class="pt-5 ps-5 pe-5">
+        <div class="input-group mb-3">
+            <textarea class="form-control" name="command" placeholder="sql commands here"><%= command %></textarea>
+            <button class="input-group-text">RUN QUERY</button>
+        </div>
+    </form>
+    <div class="ps-5 pe-5 pt-2 pb-5">
+        <ul id="users">
+            <% result.forEach(function(res){ %>
+              <li><%= JSON.stringify(res) %></li>
+            <% }) %>
+          </ul>
+        <%= err %>
+    </div>
+<%- include('footer.html') -%>
