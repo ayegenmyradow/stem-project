@@ -1,0 +1,6817 @@
+{
+	"info": {
+		"_postman_id": "a7e53657-f893-4a47-9502-2a4d45a39dd7",
+		"name": "Arzan",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "signin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"agamyrat\",\n    \"password\": \"baye1\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.arzan.info/ayxezrvjhgpg/signin",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"ayxezrvjhgpg",
+								"signin"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "no response code found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "Web"
+									},
+									{
+										"key": "Rank",
+										"value": "S1ljU5@N8bFq2ixI"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL2}}/ayxezrvjhgpg/signin",
+									"host": [
+										"{{baseURL2}}"
+									],
+									"path": [
+										"ayxezrvjhgpg",
+										"signin"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Discount Complaints GET",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzc1MjE3NzMsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.orsB4LOPvYGgEnORs8rO_bmO-1ANd5ZObCZBhbjv16o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/get-discount-complaints?page=1&per_page=20",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"get-discount-complaints"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PAGES GET BY PAGE",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/get-pages?page=about-us",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"get-pages"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "about-us"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ABOUT COMPETITION",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/page-about-competitions",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"page-about-competitions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "REGIONS GET",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/get-regions",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"get-regions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GALLERY GET",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzc1MjE3NzMsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.orsB4LOPvYGgEnORs8rO_bmO-1ANd5ZObCZBhbjv16o",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/get-gallery-all?type=image&page=2&per_page=20",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"get-gallery-all"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "image"
+								},
+								{
+									"key": "page",
+									"value": "2"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PAGES MODIFY PAGE",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tmTitle\": \"faq\",\n\t\"ruTitle\": \"faq\",\n\t\"enTitle\": \"faq\",\n\t\"tmContent\": \"tmContent\",\n\t\"ruContent\": \"ruContent\",\n\t\"enContent\": \"enContent\",\n\t\"tmId\": 11,\n\t\"ruId\": 12,\n\t\"enId\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/modify-page",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"modify-page"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Notifications get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NTM3MTgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.SvGie8w5pcpPReErAkOileNIP2YYoz2-bLYEQq7_47E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "https://api.arzan.info/ayxezrvjhgpg/get-notifications?page=1&per_page=20",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"ayxezrvjhgpg",
+								"get-notifications"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Notification modify",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NTM3MTgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.SvGie8w5pcpPReErAkOileNIP2YYoz2-bLYEQq7_47E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"notification_id\": 6,\n    \"title\": \"masyyyyyyyyyyyyynnnnnnnnnnnnn garasyaaaaaaaaaaaaaaaaaaaaa myyyyyyyyyyy12\",\n    \"content\": \"doganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyydoganym garsyp du myyyyyyyyy\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3110/ayxezrvjhgpg/modify-notification",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"modify-notification"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Transactions get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NTM3MTgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.SvGie8w5pcpPReErAkOileNIP2YYoz2-bLYEQq7_47E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/ayxezrvjhgpg/get-transactions?page=1&per_page=20&user_id=76&region_id=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"ayxezrvjhgpg",
+								"get-transactions"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "user_id",
+									"value": "76"
+								},
+								{
+									"key": "region_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Transactions add",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NTM3MTgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.SvGie8w5pcpPReErAkOileNIP2YYoz2-bLYEQq7_47E",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Rank",
+								"value": "N8bFq2ixI",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"reason\": \"Yone goshuldy\", \n    \"user_id\": 76, \n    \"common_id\": 0, \n    \"region_id\": 1, \n    \"appender_id\": 1,\n    \"score\": 10.0,\n    \"type\": \"admin-added\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.arzan.info/ayxezrvjhgpg/add-transaction",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"ayxezrvjhgpg",
+								"add-transaction"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "v2",
+			"item": [
+				{
+					"name": "GALLERY GET IMAGE GROUP",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS",
+								"type": "default"
+							},
+							{
+								"key": "Region",
+								"value": "1",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "https://api.arzan.info/api/get-gallery-image-group?page=1&per_page=20&type=image",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"api",
+								"get-gallery-image-group"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "type",
+									"value": "image",
+									"description": "image, video"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GALLERY GET IMAGES",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODM5ODg0NTEsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.-iXCKNJoPsUGdqyHsgQDB9mqYFIdX19XPYKj9aoeuHM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS",
+								"type": "default"
+							},
+							{
+								"key": "Region",
+								"value": "1",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/get-gallery-images?page=1&per_page=20&gallery_id=9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"get-gallery-images"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "gallery_id",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GALLERY GET Videos",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODM5ODg0NTEsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.-iXCKNJoPsUGdqyHsgQDB9mqYFIdX19XPYKj9aoeuHM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS",
+								"type": "default"
+							},
+							{
+								"key": "Region",
+								"value": "1",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "https://test.arzan.info/api/get-gallery-videos?page=1&per_page=20",
+							"protocol": "https",
+							"host": [
+								"test",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"api",
+								"get-gallery-videos"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GALLERY Item Preview COUNT INC",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS",
+								"type": "default"
+							},
+							{
+								"key": "Region",
+								"value": "1",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"gi_id\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3116/api/item-previewed",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"item-previewed"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GALLERY Item Download COUNT INC",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS",
+								"type": "default"
+							},
+							{
+								"key": "Region",
+								"value": "1",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"gi_id\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3116/api/item-downloaded",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"item-downloaded"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Favorites GET",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "localhost:3116/api/get-user-favorites?page=1&per_page=20",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"get-user-favorites"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "Favorites SET",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"discount_id\": 4056\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3116/api/set-user-favorite",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"set-user-favorite"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "Discount GET LIKES",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "localhost:3116/api/get-discount-likes?page=1&per_page=20&discount_id=4012",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"get-discount-likes"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "discount_id",
+									"value": "4012"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "RECOMMENDED Discount GET LIKES",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "localhost:3116/api/get-recommended-discount-likes?page=1&per_page=20&rd_id=427",
+							"host": [
+								"localhost"
+							],
+							"port": "3116",
+							"path": [
+								"api",
+								"get-recommended-discount-likes"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "rd_id",
+									"value": "427"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V2Home get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "2"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer ",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://api.arzan.info/api/v2/get-home?is_web=0",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"api",
+								"v2",
+								"get-home"
+							],
+							"query": [
+								{
+									"key": "is_web",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V2Home get badges",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc0OTYwNjgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.fe7XjCytXrjATNGLEoXE7DC64JYMkFQhqJDcmGliPzo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/v2/get-home-badges",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v2",
+								"get-home-badges"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "UUID",
+										"value": "123e4567-e89b-12d3-a456-426614174000"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home-badges",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home-badges"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:00:01 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "76"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "v3",
+			"item": [
+				{
+					"name": "V3Home get",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer ",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/v3/get-home?is_web=0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"get-home"
+							],
+							"query": [
+								{
+									"key": "is_web",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer "
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home?is_web=1",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home"
+									],
+									"query": [
+										{
+											"key": "is_web",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3Home get badges",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc0OTYwNjgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.fe7XjCytXrjATNGLEoXE7DC64JYMkFQhqJDcmGliPzo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/v3/get-home-badges",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"get-home-badges"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "UUID",
+										"value": "123e4567-e89b-12d3-a456-426614174000"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL4}}/api/get-home-badges",
+									"host": [
+										"{{baseURL4}}"
+									],
+									"path": [
+										"api",
+										"get-home-badges"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:00:01 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "76"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3 GET user profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgyNDQ0NDEsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.kWsKk8o4S-Ara2bohjHq2REl-r3tuB-RNhdaD2EwK1Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "2"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/v3/get-user-profile?page=1&per_page=20&user_id=33033",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"get-user-profile"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								},
+								{
+									"key": "user_id",
+									"value": "33033"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL5}}/api/get-user-profile",
+									"host": [
+										"{{baseURL5}}"
+									],
+									"path": [
+										"api",
+										"get-user-profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3 Follow official account",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgyNDQ0NDEsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.kWsKk8o4S-Ara2bohjHq2REl-r3tuB-RNhdaD2EwK1Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "2"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"account_id\": 33033,\n    \"state\": \"unfollow\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3110/api/v3/follow-official-account",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"follow-official-account"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL5}}/api/get-user-profile",
+									"host": [
+										"{{baseURL5}}"
+									],
+									"path": [
+										"api",
+										"get-user-profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3 GET official users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgxNTUzMzgsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6IjMzMDMzIn0.rlYMWykRhyr8yH4AgZ3HnPB5m2h4W92v6XZvC7x3-BA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "https://api.arzan.info/api/v3/get-official-accounts?page=1&per_page=20",
+							"protocol": "https",
+							"host": [
+								"api",
+								"arzan",
+								"info"
+							],
+							"path": [
+								"api",
+								"v3",
+								"get-official-accounts"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL5}}/api/get-user-profile",
+									"host": [
+										"{{baseURL5}}"
+									],
+									"path": [
+										"api",
+										"get-user-profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3 GET official user visitors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgxOTQyNzUsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6IjMzMDMzIn0.bgrwlzuhEIpg-SQbZAyGET0jafESz5eipfWgxFNVzdA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "2"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3110/api/v3/get-official-visitors?page=1&per_page=20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"get-official-visitors"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL5}}/api/get-user-profile",
+									"host": [
+										"{{baseURL5}}"
+									],
+									"path": [
+										"api",
+										"get-user-profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				},
+				{
+					"name": "V3 GET request for official user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgxOTQyNzUsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6IjMzMDMzIn0.bgrwlzuhEIpg-SQbZAyGET0jafESz5eipfWgxFNVzdA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "2"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "AY Company",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "ayegenmyradow@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "status",
+									"value": "AY Company the biggest company in our country",
+									"type": "default"
+								},
+								{
+									"key": "phone",
+									"value": "+99364552554",
+									"type": "default"
+								},
+								{
+									"key": "categories",
+									"value": "1,2,3",
+									"type": "default"
+								},
+								{
+									"key": "banners",
+									"type": "file",
+									"src": "/Users/ayegenmyradow/Desktop/2nji sonky app/bellenenler/bellenenler-list.png"
+								},
+								{
+									"key": "banners",
+									"type": "file",
+									"src": "/Users/ayegenmyradow/Desktop/2nji sonky app/category/arzanladyslar-category-2.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3110/api/v3/request-for-officials",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3110",
+							"path": [
+								"api",
+								"v3",
+								"request-for-officials"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "successfully / 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Device",
+										"value": "iOS"
+									},
+									{
+										"key": "Region",
+										"value": "1"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+									}
+								],
+								"url": {
+									"raw": "{{baseURL5}}/api/get-user-profile",
+									"host": [
+										"{{baseURL5}}"
+									],
+									"path": [
+										"api",
+										"get-user-profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "application/json; charset=utf-8 content type is not supported in the response body"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Auth start verification",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"+99362660845\",\n    \"action\": \"signup\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/auth/start-verification",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"auth",
+						"start-verification"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/start-verification",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"start-verification"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 09:20:43 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth start verification forgot password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL3}}/api/auth/start-verification-for-forgot-password",
+					"host": [
+						"{{baseURL3}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"start-verification-for-forgot-password"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/start-verification-for-forgot-password",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"start-verification-for-forgot-password"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 21:07:24 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjY5OTYwNzMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.ql5HAXIvyig_bLIWVSKB673n2P__Q1tUTSAop3clsyg"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL3}}/api/test",
+					"host": [
+						"{{baseURL3}}"
+					],
+					"path": [
+						"api",
+						"test"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjY5OTYwNzMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.ql5HAXIvyig_bLIWVSKB673n2P__Q1tUTSAop3clsyg"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/test",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"test"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 10:45:48 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Get receiver phone",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjY5OTYwNzMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.ql5HAXIvyig_bLIWVSKB673n2P__Q1tUTSAop3clsyg"
+					}
+				],
+				"url": {
+					"raw": "https://api.arzan.info/api/get-receiver-pp",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-receiver-pp"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjY5OTYwNzMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.ql5HAXIvyig_bLIWVSKB673n2P__Q1tUTSAop3clsyg"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/test",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"test"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 10:45:48 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "7"
+						}
+					],
+					"cookie": [],
+					"body": "text/plain; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Constant Pages",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"url": {
+					"raw": "localhost:3110/api/pg/terms-of-use?lang=en",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"pg",
+						"terms-of-use"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "no response code found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL2}}/api/pg/terms-of-use",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"api",
+								"pg",
+								"terms-of-use"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Regions get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"url": {
+					"raw": "localhost:3110/api/get-regions",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-regions"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "no response code found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-regions",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-regions"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Banners get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer"
+					}
+				],
+				"url": {
+					"raw": "https://api.arzan.info/api/get-0-banners?type=home_gallery",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-0-banners"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "home_gallery"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/get-0-banners",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"get-0-banners"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 15:35:14 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "136"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Home get",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "2"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.arzan.info/api/get-home?is_web=0",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-home"
+					],
+					"query": [
+						{
+							"key": "is_web",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-home?is_web=1",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-home"
+							],
+							"query": [
+								{
+									"key": "is_web",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Get categories",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://api.arzan.info/api/get-categories",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-categories"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-home?is_web=1",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-home"
+							],
+							"query": [
+								{
+									"key": "is_web",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Get categories For Modify discount",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer ",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/get-categories-4-modify-discount",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-categories-4-modify-discount"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-home?is_web=1",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-home"
+							],
+							"query": [
+								{
+									"key": "is_web",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 10:43:56 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Home get badges",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "UUID",
+						"value": "123e4567-e89b-12d3-a456-426614174000"
+					}
+				],
+				"url": {
+					"raw": "https://api.arzan.info/api/get-home-badges",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-home-badges"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-home-badges",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-home-badges"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 08:00:01 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discount get by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/discount/30672",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"discount",
+						"30672"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ4ODY5MjMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.w_9_omzP2rTjpy1kro4SHnKBhtQVNJoEZBJMZtGqShI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/discount/279",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"discount",
+								"279"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 19:39:13 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1305"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User get discount",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MzUwNDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.PqT3dhdAtyXbYwneUDpUzjGTwLPoIgLnNjxKjKZjxqw"
+					}
+				],
+				"url": {
+					"raw": "https://test.arzan.info/api/user-discount/279",
+					"protocol": "https",
+					"host": [
+						"test",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"user-discount",
+						"279"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MzUwNDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.PqT3dhdAtyXbYwneUDpUzjGTwLPoIgLnNjxKjKZjxqw"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/user-discount/279",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"user-discount",
+								"279"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:01:13 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1822"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discount get recommended by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M"
+					}
+				],
+				"url": {
+					"raw": "localhost:3110/api/recommended-discounts/11170",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"recommended-discounts",
+						"11170"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ4ODY5MjMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.w_9_omzP2rTjpy1kro4SHnKBhtQVNJoEZBJMZtGqShI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/recommended-discounts/16",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"recommended-discounts",
+								"16"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 19:43:58 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Feedback add",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU3MDk1MzEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.wDYrwHDpjYtV7yqMGZDNZ4sfFcI-PSBhZFKj_mQZU-Q"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"discount_id\": 1302,\n    \"contact\": \"ayegenmyradow@gmail.com\",\n    \"content\": \"sumka menzes eken\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/add-feedback",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"add-feedback"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/add-feedback",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"add-feedback"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 18:55:33 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discount add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MzUwNDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.PqT3dhdAtyXbYwneUDpUzjGTwLPoIgLnNjxKjKZjxqw"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "test discount",
+							"type": "default"
+						},
+						{
+							"key": "content",
+							"value": "this is discount for testing new api",
+							"type": "default"
+						},
+						{
+							"key": "phone",
+							"value": "+99364552554",
+							"type": "default"
+						},
+						{
+							"key": "start_date",
+							"value": "2023-01-01",
+							"type": "default"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-10-01",
+							"type": "default"
+						},
+						{
+							"key": "on_sale",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "is_view_deadline",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "is_view_phone",
+							"value": "0",
+							"type": "default"
+						},
+						{
+							"key": "price",
+							"value": "1000",
+							"type": "default"
+						},
+						{
+							"key": "sale_price",
+							"value": "560",
+							"type": "default"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/ayegenmyradow/Documents/akyol/tiborn/assets/1.jpg"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": "/Users/ayegenmyradow/Documents/akyol/assets/main-oil.jpg"
+						},
+						{
+							"key": "hashtags",
+							"value": "Aman myrat",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3110/api/add-discount1",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"add-discount1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MzUwNDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.PqT3dhdAtyXbYwneUDpUzjGTwLPoIgLnNjxKjKZjxqw"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL2}}/api/add-discount1",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"api",
+								"add-discount1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 20:07:12 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User get profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc0OTYwNjgsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.fe7XjCytXrjATNGLEoXE7DC64JYMkFQhqJDcmGliPzo",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "2"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/get-user-profile?page=1&per_page=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-user-profile"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/get-user-profile",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"get-user-profile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User join challenge",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODQ3MzUyOTIsInJvbGUiOiJzdXBlcmFkbWluIiwidXNlcl9pZCI6Ijc2In0.oQxS9QZ5sgtyNCGiEb4eVTmC7ZpnW20HTAzsQeviYxU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.arzan.info/api/join-2-competition",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"join-2-competition"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/get-user-profile",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"get-user-profile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User get Notifications",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDMzOTgsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.NjkUL6PoaY7hY4JD5uabE3X48rYwJqDNUtsxvXxronM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "https://test.arzan.info/api/get-user-notifications",
+					"protocol": "https",
+					"host": [
+						"test",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-user-notifications"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/get-user-profile",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"get-user-profile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User SCORE INFO",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODgyNDQ0NDEsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.kWsKk8o4S-Ara2bohjHq2REl-r3tuB-RNhdaD2EwK1Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/get-user-score-info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-user-score-info"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2MzExNDAsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.GmydZVahLjNRlNTtU7YDf3n1lMO_7WKfl5nyaSc6KuA"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/get-user-profile",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"get-user-profile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:12:15 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User get discounts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5MjI2MDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiMSJ9.2RuT6gFW7YtsHM9t0qjbEJqzEOrv4Tes7SLoqkXkh_E"
+					}
+				],
+				"url": {
+					"raw": "localhost:3110/api/get-user-discounts?page=1&per_page=20&status=rejected",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-user-discounts"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "status",
+							"value": "rejected"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1ODIwNjUsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.TDxGnfHys0nryHj-FFcw0viDZWIgkACkrz_IU_1uS2s"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/get-user-discounts",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"get-user-discounts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:02:40 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Top users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "UUID",
+						"value": "123e4567-e89b-12d3-a456-426614174000"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/top-users?page=1&per_page=20&is_web=1&role=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"top-users"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "top",
+							"value": "100",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "is_web",
+							"value": "1"
+						},
+						{
+							"key": "role",
+							"value": "1",
+							"description": "0 - users <=> 1 - officials"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/top-users",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"top-users"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 07:57:52 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discount toggle like",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"discount_id\": 36491,\n    \"is_like\": 0\n}"
+				},
+				"url": {
+					"raw": "localhost:3110/api/discount-toggle-like",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"discount-toggle-like"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ4ODY5MjMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.w_9_omzP2rTjpy1kro4SHnKBhtQVNJoEZBJMZtGqShI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/discount-toggle-like",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"discount-toggle-like"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 04:55:01 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "69"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Recommended Discount toggle like",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"rd_id\": 339,\n    \"is_liked\": 1\n}"
+				},
+				"url": {
+					"raw": "localhost:3110/api/recommended-toggle-like",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"recommended-toggle-like"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ4ODY5MjMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.w_9_omzP2rTjpy1kro4SHnKBhtQVNJoEZBJMZtGqShI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/recommended-toggle-like",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"recommended-toggle-like"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 04:54:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "51"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Gallery toggle like",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gi_id\": 1\n}"
+				},
+				"url": {
+					"raw": "localhost:3110/api/gallery-toggle-like",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"gallery-toggle-like"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzQ4ODY5MjMsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.w_9_omzP2rTjpy1kro4SHnKBhtQVNJoEZBJMZtGqShI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL5}}/api/recommended-toggle-like",
+							"host": [
+								"{{baseURL5}}"
+							],
+							"path": [
+								"api",
+								"recommended-toggle-like"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0 (Ubuntu)"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 04:54:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "51"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discount refresh position",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODM5ODY2MjUsInJvbGUiOiJ1c2VyIiwidXNlcl9pZCI6Ijc2In0.tfKQ2Qy855sdDav2-EvSzMAHFdvAth9PNwcvu97MdW0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"discount_id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3110/api/discount-refresh0-position",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"discount-refresh0-position"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "forbidden / 403",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjcwNzE0NjYsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.q22GiPLtECralXw4cU9vRObY23v-3DhGpNnv2rIHcRs"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/discount-refresh0-position",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"discount-refresh0-position"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 29 Oct 2022 15:55:00 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "126"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discounts get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "UUID",
+						"value": "123e4567-e89b-12d3-a456-426614174000"
+					}
+				],
+				"url": {
+					"raw": "https://test.arzan.info/api/get-discounts?page=1&per_page=20&cat_id=2",
+					"protocol": "https",
+					"host": [
+						"test",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-discounts"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "cat_id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/get-discounts?page=1&per_page=20",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"get-discounts"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 07:55:58 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discounts get by hashtag",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"url": {
+					"raw": "{{baseURL4}}/api/get-discounts-by-hashtag",
+					"host": [
+						"{{baseURL4}}"
+					],
+					"path": [
+						"api",
+						"get-discounts-by-hashtag"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-discounts-by-hashtag",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-discounts-by-hashtag"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 19:27:18 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "274"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Discounts get by Search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "api.arzan.info/api/get-discounts-by-search?page=1&per_page=20&search=test",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-discounts-by-search"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "search",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/get-discounts-by-hashtag",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"get-discounts-by-hashtag"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 19:27:18 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "274"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Recommended discounts get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "UUID",
+						"value": "123e4567-e89b-12d3-a456-426614174000"
+					}
+				],
+				"url": {
+					"raw": "api.arzan.info/api/get-r-discounts?page=1&per_page=20",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"get-r-discounts"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "UUID",
+								"value": "123e4567-e89b-12d3-a456-426614174000"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/get-r-discounts?page=1&per_page=20",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"get-r-discounts"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 07:57:00 GMT"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User change avatar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDMzOTgsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.NjkUL6PoaY7hY4JD5uabE3X48rYwJqDNUtsxvXxronM"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "avatar",
+							"type": "file",
+							"src": "/Users/ayegenmyradow/Documents/akyol/assets/main-car3.jpg"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/change-user-avatar",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"change-user-avatar"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjcwNzE0NjYsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.q22GiPLtECralXw4cU9vRObY23v-3DhGpNnv2rIHcRs"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL4}}/api/change-user-avatar",
+							"host": [
+								"{{baseURL4}}"
+							],
+							"path": [
+								"api",
+								"change-user-avatar"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 29 Oct 2022 17:13:42 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "92"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User change Password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5MjI2MDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiMSJ9.2RuT6gFW7YtsHM9t0qjbEJqzEOrv4Tes7SLoqkXkh_E",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password_again\": \"1234\",\n    \"password\": \"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/change-user-password",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"change-user-password"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/change-user-password",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"change-user-password"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 19:06:46 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "User change username",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL3}}/api/change-user-username",
+					"host": [
+						"{{baseURL3}}"
+					],
+					"path": [
+						"api",
+						"change-user-username"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/change-user-username",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"change-user-username"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 19:15:45 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth signup",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Android"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Enarr\",\n    \"phone\": \"+99362660845\",\n    \"password\": \"1234\",\n    \"confirm_password\": \"1234\",\n    \"inviter\": \"76\",\n    \"code\": \"736862\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/auth/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Android"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/signup",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 07:04:34 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "303"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth signup VIA Received sms",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Android"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Enarr\",\n    \"phone\": \"+99362660845\",\n    \"password\": \"1234\",\n    \"confirm_password\": \"1234\",\n    \"inviter\": \"76\",\n    \"code\": \"-1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/auth/signup-via-received-sms",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"auth",
+						"signup-via-received-sms"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Android"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/signup",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 07:04:34 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "303"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth forgot password",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Android"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL3}}/api/auth/user-forgot-password____0",
+					"host": [
+						"{{baseURL3}}"
+					],
+					"path": [
+						"api",
+						"auth",
+						"user-forgot-password____0"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Android"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/user-forgot-password____0",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"user-forgot-password____0"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 21:07:35 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth signin",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"agamyrat\",\n    \"password\": \"baye1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.arzan.info/api/auth/signin",
+					"protocol": "https",
+					"host": [
+						"api",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/signin",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:05:40 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "302"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "check-username-exists",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"agamyrat1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.arzan.info/api/check-username-exists",
+					"protocol": "https",
+					"host": [
+						"test",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"check-username-exists"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/signin",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:05:40 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "302"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "check-phone-exists",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer "
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"+99364552554\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.arzan.info/api/check-phone-exists",
+					"protocol": "https",
+					"host": [
+						"test",
+						"arzan",
+						"info"
+					],
+					"path": [
+						"api",
+						"check-phone-exists"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer "
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/auth/signin",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 07 Nov 2022 21:05:40 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "302"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Auth signout",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDEzNjUsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.XiPLCNyCkyZg0Mm9HWmoPSAtmx6a4e4lnp_VpB0cY7M"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3110/api/auth/signout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"auth",
+						"signout"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "no response code found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjcwMDAwMzUsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.g84iq1U6TLPypESWnV49crObIXv6ePxuZRHDi5at1QI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL2}}/api/auth/signout",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signout"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "DiscountRemove",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzc5MjU0MDgsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiNzYifQ.c95g-KB0M8aWqg3-oA0-Pd_fHhTRwU3v0mZQB3rC_Cw"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"discount_id\": 1704\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3110/api/remove-discount2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"remove-discount2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "no response code found",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NjcwMDAwMzUsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.g84iq1U6TLPypESWnV49crObIXv6ePxuZRHDi5at1QI"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL2}}/api/auth/signout",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"signout"
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "User remove account",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "Web"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MDM0NDUsInBob25lIjoiKzk5MzYyNjYwODQ1Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiNTUifQ.75041Ty3Kp0WBc13PWfWw7KpZnJ9fkWwOb9gYiWofso"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL2}}/api/remove-user-account--auth",
+					"host": [
+						"{{baseURL2}}"
+					],
+					"path": [
+						"api",
+						"remove-user-account--auth"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "Web"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU1MDM0NDUsInBob25lIjoiKzk5MzYyNjYwODQ1Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiNTUifQ.75041Ty3Kp0WBc13PWfWw7KpZnJ9fkWwOb9gYiWofso"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL2}}/api/remove-user-account--auth",
+							"host": [
+								"{{baseURL2}}"
+							],
+							"path": [
+								"api",
+								"remove-user-account--auth"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 06 Nov 2022 09:37:37 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "INC WEB ANDROID DOWNLOADS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3110/api/get-inc-web-android-downloads",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"get-inc-web-android-downloads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add device token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5MjI2MDgsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiMSJ9.2RuT6gFW7YtsHM9t0qjbEJqzEOrv4Tes7SLoqkXkh_E"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"device_token\": \"12312312\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/add-device-token",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"add-device-token"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/change-user-username",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"change-user-username"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 19:15:45 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "set device token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Device",
+						"value": "iOS"
+					},
+					{
+						"key": "Region",
+						"value": "1"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU5NDMzOTgsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.NjkUL6PoaY7hY4JD5uabE3X48rYwJqDNUtsxvXxronM",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"device_token\": \"12312312\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/set-device-token",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"set-device-token"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Device",
+								"value": "iOS"
+							},
+							{
+								"key": "Region",
+								"value": "1"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzUzNjQwNTEsInBob25lIjoiKzk5MzY0NTUyNTU0Iiwicm9sZSI6InVzZXIiLCJ1c2VyX2lkIjoiMTQifQ.gzUDMqTj4Hl_YIuJUUPLy94iMad5waBjl5ibnDIC0Js"
+							}
+						],
+						"url": {
+							"raw": "{{baseURL3}}/api/change-user-username",
+							"host": [
+								"{{baseURL3}}"
+							],
+							"path": [
+								"api",
+								"change-user-username"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 04 Nov 2022 19:15:45 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "32"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Push test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "key=AAAAIGwGLzw:APA91bFfs7n1cs-d4poSJFdTFt6o90PFV039fBXuhUg7aiVXm5ngHbH-kHODzNFOpKYbfZpLJgTmSe3Q0Z5bH-r79h3_TAcKMqXOlwpTlvA4WM8airf2EkutbVmP8B6zRKdjTLId6Mfe",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"registration_ids\": [\"fwCctrXzRZm2uSZEXnEM42:APA91bHrB2-kr6NhDeeKPgg3lHLtYcHYgYrn6SohQZhXBAd0JIG4UE5QzHa50I5z3XGfyOzX-bmWuAIkZul-5n2-KIGH1_mf7dXcXVRlkv6L_V5KeQ8mG09KNAa3LS4xJKKCxc6_PzNC\"],\n    \"notification\": {\n        \"body\": \"Testing time\",\n        \"title\": \"Early greeting\",\n        \"subtitle\": \"this is test\",\n        \"image\": \"https://api.arzan.info/static/2023-02/discount_18109_1677068386.jpg\",\n        \"ChannelID\": \"arzan.com.tm\"    },\n    \"data\": {\n        \"body\": \"Testing time\",\n        \"title\": \"Early greeting\",\n        \"subtitle\": \"this is test\",\n        \"image\": \"https://api.arzan.info/static/2023-02/discount_18109_1677068386.jpg\",\n        \"ChannelID\": \"arzan.com.tm\"\n    }\n}"
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount Add Image by user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Device",
+						"value": "iOS",
+						"type": "default"
+					},
+					{
+						"key": "Region",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/ayegenmyradow/Documents/rm/static/assets/images/small.png"
+						},
+						{
+							"key": "discount_id",
+							"value": "1",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3110/api/add-discount-image",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"add-discount-image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount modify by user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Device",
+						"value": "iOS",
+						"type": "default"
+					},
+					{
+						"key": "Region",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"discount_id\": 1,\n\t\"title\": \"Shu gowy discount gorun\",\n\t\"content\": \" asdf asd fa sdf as df asdf\",\n\t\"cat_id\": 2,\n\t\"hashtags\": \"#aman #myrat\",\n\t\"is_view_phone\": true,\n\t\"phone\": \"+99364552554\",\n\t\"on_sale\": true,\n\t\"price\": 650,\n\t\"sale_price\": 550,\n\t\"is_view_discount_date\": true,\n\t\"start_date\": \"2023-01-31\",\n\t\"end_date\": \"2023-02-28\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3110/api/modify-discount-info",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"modify-discount-info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount Remove Image by user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Nzk0ODc4ODYsInBob25lIjoiKzk5MzYzMjEyMTI1Iiwicm9sZSI6InN1cGVyYWRtaW4iLCJ1c2VyX2lkIjoiNzYifQ.29anAtXrylHpUr181WBOC-Omipaqg3Xdonr2U2WDiqI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					},
+					{
+						"key": "Device",
+						"value": "iOS",
+						"type": "default"
+					},
+					{
+						"key": "Region",
+						"value": "1",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "discount_id",
+							"value": "1",
+							"type": "default"
+						},
+						{
+							"key": "small",
+							"value": "https://test.arzan.info/static/2023-02/discount_large_78081_1676271973.png",
+							"type": "default"
+						},
+						{
+							"key": "large",
+							"value": "https://test.arzan.info/static/2023-02/discount_large_78081_1676271973.png",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3110/api/remove-discount-image",
+					"host": [
+						"localhost"
+					],
+					"port": "3110",
+					"path": [
+						"api",
+						"remove-discount-image"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "http://95.85.126.192:8585",
+			"type": "any"
+		},
+		{
+			"key": "baseURL2",
+			"value": "http://10.15.0.33:3110",
+			"type": "any"
+		},
+		{
+			"key": "baseURL3",
+			"value": "http://localhost:3110",
+			"type": "any"
+		},
+		{
+			"key": "baseURL4",
+			"value": "http://95.85.126.192:3110",
+			"type": "any"
+		},
+		{
+			"key": "baseURL5",
+			"value": "http://api.arzan.info",
+			"type": "any"
+		}
+	]
+}

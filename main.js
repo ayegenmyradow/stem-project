@@ -163,6 +163,25 @@ app.post("/profile", async (req, res) => {
   req.body.user_id=req.credentials.user_id;
   modifyUserProfile(db, req.body);
   res.redirect("/profile");
-})
+});
+
+
+app.get("/events", async (req, res) => {
+  const user = await getUsername(db, req.credentials.user_id)
+  res.render("events.html", {
+    title: "Stem Group - Events", 
+    username: user, 
+    active: "events"
+  });
+});
+
+app.get("/add-event", async (req, res) => {
+  const user = await getUsername(db, req.credentials.user_id)
+  res.render("add-event.html", {
+    title: "Stem Group - Add new Event",
+    username: user, 
+    active: "events"
+  });
+});
 
 app.listen(port, () => console.log(`App listening on port ${port}`));

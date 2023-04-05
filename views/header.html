@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><%= title %></title>
   <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
   <script src="/public/bootstrap/js/bootstrap.min.js"></script>
@@ -25,10 +25,7 @@
               Users
             </a>
           </li>
-
-
-          <li class="nav-item"><a class="nav-link <%if (active==='sql'){%>active<%}%>" href="/sql">Sql</a></li>
-          <li class="nav-item"><a class="nav-link <%if (active==='codes'){%>active<%}%>" href="/codes">See code</a></li>
+          <li class="nav-item"><a class="nav-link <%if (active==='events'){%>active<%}%>" href="/events">Events</a></li>
         </ul>
         <div style="position: relative;">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -38,9 +35,11 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/profile">Profile</a></li>
             <li><a class="dropdown-item" href="#">My orders</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
+            <li><a class="dropdown-item" href="/sql">Sql</a></li>
+            <li><a class="dropdown-item" href="/codes">See code</a></li>
+
+            <li><a class="dropdown-item" href="/add-event">Add Event</a></li>
+            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/logout" onclick="return confirm('Are you sure?')">Logout</a></li>
           </ul>
         </div>
