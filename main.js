@@ -16,6 +16,7 @@ const {
   getUser,
   getTags,
   addProject,
+  getProjects,
 } = require("./services/dbService");
 
 const multer  = require('multer')
@@ -237,9 +238,11 @@ app.post("/add-event", async (req, res) => {
 });
 app.get("/projects", async (req, res) => {
   const user = await getUsername(db, req.credentials.user_id);
+  const projects = await getProjects(db);
   res.render("projects.html", {
     title: "Stem Group - Projects",
     username: user,
+    projects: projects,
     active: "projects",
   });
 });

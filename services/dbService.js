@@ -133,6 +133,16 @@ function addProject(db, project){
     })
 }
 
+
+function getProjects(db){
+    return new Promise(function(resolve, reject){
+        const query = "SELECT title, description, image, user_id, created_at FROM tbl_projects ORDER BY project_id DESC"
+        db.query(query, function(err, result){
+            err ? reject(err) : resolve(result);
+        })
+    })
+}
+
 module.exports = {
     modifyUserProfile,
     addEventService,
@@ -143,4 +153,5 @@ module.exports = {
     getUser,
     getTags,
     addProject,
+    getProjects,
 }

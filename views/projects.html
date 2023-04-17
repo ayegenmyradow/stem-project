@@ -2,4 +2,30 @@
     <div class="container p-3">
         <h1 class="text-center">STEM - Projects</h1>
     </div>
+    <div class="container">
+        <div class="row mt-3 mb-5">
+            <%projects.forEach(function(project, index){%>
+                <div class="p-1 col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-title" style="font-weight: 600; font-size: 18px;">
+                                <%=project.title%>
+                            </p>
+                            <p class="card-text">
+                                <%=project.description%>.
+                            </p>
+                            <small class="m-0 text-small">
+                                <%=project.created_at%>
+                            </small>
+                            <br>
+                            <audio controls>
+                                <source src="<%=project.image%>" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            <%})%>
+    </div>
+</div>
 <%- include('footer.html') -%>
