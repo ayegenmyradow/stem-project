@@ -1,0 +1,21 @@
+<%- include('header.html') -%>
+    <form class="container p-3" action="/add-project" method="post" enctype="multipart/form-data">
+        <h1 class="text-center">STEM - ADD PROJECT</h1>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Title</span>
+            <input type="text" class="form-control" name="title">
+        </div>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Description</span>
+            <input type="text" class="form-control" name="description">
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="image" style="min-width: 150px;">Upload</label>
+            <input type="file" class="form-control" id="image" name="image">
+        </div>
+        <div class="text-center">
+            <button class="btn btn-outline-danger" type="reset">Reset</button>
+            <button class="btn btn-outline-success" type="submit">Confirm</button>
+        </div>
+    </form>
+<%- include('footer.html') -%>

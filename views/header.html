@@ -26,6 +26,9 @@
             </a>
           </li>
           <li class="nav-item"><a class="nav-link <%if (active==='events'){%>active<%}%>" href="/events">Events</a></li>
+          <li class="nav-item"><a class="nav-link <%if (active==='projects'){%>active<%}%>" href="/projects">Projects</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/public/stem.zip">Download project</a></li>
         </ul>
         <div style="position: relative;">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -37,8 +40,8 @@
             <li><a class="dropdown-item" href="#">My orders</a></li>
             <li><a class="dropdown-item" href="/sql">Sql</a></li>
             <li><a class="dropdown-item" href="/codes">See code</a></li>
-
             <li><a class="dropdown-item" href="/add-event">Add Event</a></li>
+            <li><a class="dropdown-item" href="/add-project">Add project</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/logout" onclick="return confirm('Are you sure?')">Logout</a></li>
           </ul>

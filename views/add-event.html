@@ -1,24 +1,47 @@
 <%- include('header.html') -%>
-    <div class="container pt-3 pb-3">
+    <form class="container pt-3 pb-3" method="post" action="/add-event">
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Name</span>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Description</span>
+            <input type="text" class="form-control" name="description">
+        </div>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Start time</span>
+            <input type="date" class="form-control" name="start_time">
+        </div>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">End time</span>
+            <input type="date" class="form-control" name="end_time">
+        </div>
+        <div class="input-group mb-3">
+            <span style="min-width: 150px;" class="input-group-text">Theme</span>
+            <input type="text" class="form-control" name="theme">
+        </div>  
          <div class="input-group mb-3">
-            <span style="min-width: 150px;" class="input-group-text">Target</span>
-            <input type="text" class="form-control" name="target">
+            <span style="min-width: 150px;" class="input-group-text">Link</span>
+            <input type="text" class="form-control" name="link">
         </div>
         <div class="input-group mb-3">
             <span style="min-width: 150px;" class="input-group-text">Image</span>
             <input type="text" class="form-control" name="image">
         </div>
         <div class="input-group mb-3">
-            <span style="min-width: 150px;" class="input-group-text">title</span>
-            <input type="text" class="form-control" name="title">
+            <span style="min-width: 150px;" class="input-group-text">Capacity</span>
+            <input type="number" class="form-control" name="capacity">
         </div>
-        <div class="input-group mb-3">
-            <span style="min-width: 150px;" class="input-group-text">Theme</span>
-            <input type="text" class="form-control" name="title">
-        </div>  
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="is_online" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Is Online
+            </label>
+          </div>
+          
         <div class="text-center">
             <button class="btn btn-outline-danger" type="reset">Reset</button>
             <button class="btn btn-outline-success" type="submit">Confirm</button>
         </div>
-    </div>
+    </form>
 <%- include('footer.html') -%>

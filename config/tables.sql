@@ -35,8 +35,42 @@ CREATE TABLE tbl_events(
 );
 
 CREATE TABLE tbl_event_tags(
-  tag varchar(255)
+  tag varchar(255),
+  event_id INT
 );
+
+CREATE TABLE tbl_projects(
+  project_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name varchar(255),
+  description varchar(512),
+  created_at timestamp default current_timestamp,
+  image varchar(1023),
+  owner_id INT FOREIGN KEY (owner_id) REFERENCES tbl_users(user_id)
+);
+
+CREATE TABLE tbl_audios(
+  a_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  title varchar(255),
+  album varchar(512),
+  image varchar(1023),
+  src varchar(1023),
+  created_at timestamp default current_timestamp,
+  owner_id INT,
+  FOREIGN KEY (owner_id) REFERENCES tbl_users(user_id)
+);
+
+CREATE TABLE tbl_projects (
+  project_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  title varchar(255),
+  description varchar(1023),
+  image varchar(1023),
+  created_at timestamp DEFAULT CURRENT_TIMESTAMP,
+  user_id INT,
+  FOREIGN KEY (user_id) REFERENCES tbl_users(user_id) ON DELETE CASCADE
+)
+
+
+
 INSERT INTO tbl_event_tags(tag) values('Stem');
   
 INSERT INTO tbl_banners(name, image, target, `order`)

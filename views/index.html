@@ -1,5 +1,8 @@
 <%- include('header.html') -%>
     <div class="container pt-3 pb-3">
+        <h1 class="text-center" id="users">
+            Hello, STEM GROUP <br> http://192.168.4.102:3000
+        </h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-ride="carousel">
             <div class="carousel-indicators">
                 <%banners.forEach(function(banner, index){%>
@@ -15,13 +18,5 @@
                 <%})%>
             </div>            
         </div>
-        <h1>Users</h1>
-        <div id="users">hello everybody</div>
-        <div>
-            <h2>http://192.168.4.202:3000</h2>
-            <a class="btn btn-success" href="/public/stem.zip">
-                Download stem latest
-            </a>
-        </div>
     </div>
-    <%- include('footer.html') -%>
+<%- include('footer.html') -%>
