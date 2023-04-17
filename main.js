@@ -15,13 +15,13 @@ const {
   getUsers,
   getUser,
   getTags,
+  addProject,
 } = require("./services/dbService");
 
 const multer  = require('multer')
 const upload = multer({ storage: multer.diskStorage({
-  destination: './public/',
-  filename: ( req, file, cb ) => cb( null, Date.now() + "_" + file.originalname)
-}) });
+  destination: './public/', filename: ( req, file, cb ) => cb( null, Date.now() + "_" + file.originalname)
+})});
 
 const app = express();
 const port = 3000;
@@ -250,14 +250,16 @@ app.get("/add-project", async (req, res) => {
     username: user,
     active: "projects",
   });
-});r
+});
 
 app.post("/add-project", upload.single("image"), async (req, res) => {
-  // req.credentials.user_id
-  // req.body.title
-  // req.body.description
-  // '/public/' + req.file.filename
-  res.redirect("/add-project")
+  await addProject(db, {
+    title: req.body.title, 
+    description: req.body.description, 
+    image: '/public/' + req.file.filename, 
+    user_id: req.credentials.user_id
+  })
+  res.redirect("/projects")
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}`));
