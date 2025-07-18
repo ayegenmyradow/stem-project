@@ -1,9 +1,9 @@
 const mysql = require("mysql2");
 
 const pool = mysql.createPool({
-  host: "185.202.239.140",
+  host: "",
   user: "stem-group",
-  password: "StemGroup23!",
+  password: "",
   database: "stem_group",
   waitForConnections: true,
   connectionLimit: 100,
